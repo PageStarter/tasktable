@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   get 'static_pages/help'
 
   get 'static_pages/contacts'
-
+  
+  get "static_pages/about"
+  
   get 'users/create'
 
   get 'users/update'
