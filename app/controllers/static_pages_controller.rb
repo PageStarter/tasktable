@@ -11,5 +11,7 @@ class StaticPagesController < ApplicationController
   def contacts
   end
   
+  def dashboard
+  end
   
 end
